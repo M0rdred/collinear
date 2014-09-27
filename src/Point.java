@@ -1,21 +1,21 @@
-/*************************************************************************
- * Name:
- * Email:
+
+/**
+ * ***********************************************************************
+ * Name: Email:
  *
- * Compilation:  javac Point.java
- * Execution:
- * Dependencies: StdDraw.java
+ * Compilation: javac Point.java Execution: Dependencies: StdDraw.java
  *
  * Description: An immutable data type for points in the plane.
  *
- *************************************************************************/
+ ************************************************************************
+ */
 
 import java.util.Comparator;
 
 public class Point implements Comparable<Point> {
 
     // compare points by slope
-    public final Comparator<Point> SLOPE_ORDER;       // YOUR DEFINITION HERE
+//    public final Comparator<Point> SLOPE_ORDER;       // YOUR DEFINITION HERE
 
     private final int x;                              // x coordinate
     private final int y;                              // y coordinate
@@ -41,13 +41,13 @@ public class Point implements Comparable<Point> {
 
     // slope between this point and that point
     public double slopeTo(Point that) {
-        /* YOUR CODE HERE */
+        return 0;        
     }
 
     // is this point lexicographically smaller than that one?
     // comparing y-coordinates and breaking ties by x-coordinates
     public int compareTo(Point that) {
-        /* YOUR CODE HERE */
+        return 0;
     }
 
     // return string representation of this point
